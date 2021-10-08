@@ -26,7 +26,7 @@ print()
 for x in invitados:
     print(f"{x} será un placer tenerte en nuestra cena, espero disfrutes la comida y disfrutes el tiempo juntos")
 
-# 4.4    . Al final del programa imprime un mensaje que diga como les ha parecido la cena.
+# 4.4  
 print()
 while  2 != len(invitados):
     print(f"{invitados.pop()} lamentamos informarle que debido a problemas de reservación solo se podrá tener dos invitados y tendremos que cancelar su invitación")
