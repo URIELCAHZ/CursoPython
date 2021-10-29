@@ -3,12 +3,19 @@ names =["Guadalupe Mendez", "Sergio Clara", "Alfredo Carbaja", "Brianda Lizeht",
 
 records = {}
 # obtener la primera letra en un for
-for name in names:
-    #verificar si existe la letra y  agregar a la lista
-    if name[0] in records:
-       records[name[0]].append(name) 
-    else:
-        records[name[0]] = [name]
+# for name in names:
+#     #verificar si existe la letra y  agregar a la lista
+#     if name[0] in records:
+#        records[name[0]].append(name) 
+#     else:
+#         records[name[0]] = [name]
     
+# for key in records:
+#    print(key,": ", records[key])
+
+# utilizando setdefault y aprovechando que reqresa una lista
+for name in names:
+   records.setdefault(name[0],[]).append(name)
+
 for key in records:
-   print(key,": ", records[key])
+   print(key,":", records[key] )
