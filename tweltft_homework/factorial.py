@@ -7,4 +7,14 @@ def factorial(numero):
     return x
 
 
+def segundo_factorial(numero):
+    if numero == 1: return 1
+    numero *= segundo_factorial( numero - 1)
+
+    return numero
+
+
+
 print( factorial(10) )
+
+print(segundo_factorial(10))
