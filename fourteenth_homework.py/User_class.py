@@ -39,7 +39,7 @@ def complite_register(user_numb):
     usuarios[user_numb].complete_data(edad, direccion, numero_de_telefono, genero)
  
 
-def New_user():
+def new_user():
     first_name = input("Cual es tu primer nombre: ")
     last_name = input("Cual es tu apellido: ")
 
@@ -51,7 +51,7 @@ def New_user():
     
  
 
-New_user()
+new_user()
 
 print()
 usuarios[0].get_user()
