@@ -15,5 +15,10 @@ class Restaurant:
     def close_restautant(self):
         self.open = False
         print("El restaurante se encuetra cerrado")
+
+    # def __repr__(self) -> str:
+    #     return f"El restanrante {self.name} le servira esquisita comida {self.cuisine}, y el restauran esta open = {self.open}"
        
+    def __str__(self) -> str:
+        return f"El restanrante {self.name} le servira esquisita comida {self.cuisine}, y el restauran esta open = {self.open}"
 

@@ -13,4 +13,4 @@ add_restaurant("Das kleine Mädchen", "Alemana")
 add_restaurant("Don Bigotes", "Mexicana")
 
 for x in restaurantes:
-    x.restaurant_description()
+    print(x)
