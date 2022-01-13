@@ -11,13 +11,13 @@
 
 # file_object.close()
 
-with open('C:\\Users\\URIELXD\\Documents\\CursoPythonPaco\\CursoPython\\fifteenth_clas\\pi_digits.txt') as file_object:
+with open('C:\\Users\\URIELXD\\Documents\\CursoPythonPaco\\CursoPython\\fifteenth_clas\\pi_million_digits.txt') as file_object:
     lines = file_object.readlines()
 pi_string = ""
 for line in lines:
 
     pi_string += line.strip()
 
-print(pi_string)
+print(pi_string[:100 ])
     
     
