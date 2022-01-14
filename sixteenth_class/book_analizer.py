@@ -5,7 +5,7 @@ if (len(sys.argv)) <= 1:
     exit()
 
 file_name = sys.argv[1]
-# filename = "C:\\Users\\URIELXD\\Documents\\CursoPythonPaco\\CursoPython\\sixteenth_class\\Alice.txt"
+#filename = "C:\\Users\\URIELXD\\Documents\\CursoPythonPaco\\CursoPython\\sixteenth_class\\Alice.txt"
 
 try:
     with open(filename) as file_object:
