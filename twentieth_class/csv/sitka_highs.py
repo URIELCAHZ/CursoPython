@@ -4,8 +4,7 @@ from datetime import datetime
 
 
 
-filename = "twentieth_class\csv\data\sitka_weather_2018_simple.csv"
-
+filename = "twentieth_class\csv\data\death_valley_2018_full.csv"
 with open(filename) as file:
     reader = csv.reader(file)
     header = next(reader)
